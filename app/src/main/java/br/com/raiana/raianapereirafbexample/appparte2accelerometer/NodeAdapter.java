@@ -145,12 +145,12 @@ public class NodeAdapter extends RecyclerView.Adapter<NodeAdapter.NodeViewHolder
                 notifyDataSetChanged();
             }
 
-            teste.setText(String.valueOf(yChange));
+          //  teste.setText(String.valueOf(yChange));
 
         }
         else if (yChange < -2){
             //"UP";
-            teste.setText(String.valueOf(yChange));
+          //  teste.setText(String.valueOf(yChange));
         }
 
     }
